@@ -6,11 +6,7 @@
     margin-bottom: 0;
   }
 
-  .logo-box {
-    width: 100%;
-    float: none;
-    margin: 0 !important;
-  }
+
 
   .navigation-box {
     margin: 0;
@@ -21,16 +17,12 @@
     margin-right: 0;
     border-color: #fff;
     background-color: transparent !important;
-    margin: 23px 0;
     color: #fff;
     border: none;
     font-size: 23px;
-    float: right;
     outline: none;
     cursor: pointer;
-    top: 3px;
-    position: relative;
-  }
+}
 
   .menu-toggler:hover {
     border-color: #e0a965;
@@ -210,30 +202,12 @@
     padding-left: 0px;
     position: relative;
   }
-
   .header-navigation .container .logo-box {
-    position: relative;
-    top: 0;
-    left: 0;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    float: none;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    width: 100%;
+    justify-content: flex-end;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-right: 145px;
-  }
+}
 
-  .header-navigation .container .logo-box .navbar-brand {
-    float: left;
-    padding: 0px 15px;
-  }
 
   .header-navigation .container .logo-box .navbar-toggler {
     float: left;
@@ -264,14 +238,18 @@
   }
 
   .header-navigation .main-navigation {
-    float: none;
     width: 100%;
     display: none;
     text-align: left;
     background: #333333;
     max-height: 70vh;
     overflow-y: scroll;
-  }
+    position: absolute;
+    left: 15px;
+    top: 100%;
+    z-index: 99;
+    padding-top: 61px;
+}
 
   .header-navigation .container .menu-toggler {
     display: block;
@@ -285,17 +263,16 @@
     background-color: transparent;
   }
 
-  .header-navigation .container .menu-toggler {
-    float: left;
-    margin: 31px 0;
-    position: relative;
-    top: -1px;
-  }
-
   .header-navigation {
     padding-left: 0px !important;
     padding-right: 0px !important;
-  }
+   
+}
+.header-navigation  .container{
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+}
+
 
   .header-navigation .container .logo-box {
     padding-left: 0;
@@ -332,22 +309,16 @@
   .header-navigation .container .right-side-box {
     display: none;
   }
-
   .header-navigation .container .logo-box {
-    padding-right: 0;
-  }
-
+    justify-content: flex-end;
+    justify-content: flex-end !important;
+}
   .header-navigation .container .menu-toggler {
     margin-left: 0;
     float: right;
   }
 
-  .header-navigation .container .logo-box {
-    padding-right: 15px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
+  
 }
 @media (max-width: 425px) {
   .header-navigation .container .right-side-box {
