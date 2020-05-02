@@ -236,7 +236,6 @@
   .header-navigation ul.navigation-box > li + li {
     margin: 0;
   }
-
   .header-navigation .main-navigation {
     width: 100%;
     display: none;
@@ -245,7 +244,7 @@
     max-height: 70vh;
     overflow-y: scroll;
     position: absolute;
-    left: 15px;
+    left: 0px;
     top: 100%;
     z-index: 99;
     padding-top: 61px;

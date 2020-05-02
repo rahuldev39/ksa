@@ -1846,8 +1846,8 @@ a:focus {
 .about-two__text {
   font-size: 14px;
   line-height: 24px;
-  font-weight: 300;
-  color: #666666;
+  font-weight: 500;
+  color: #2f2f2f;
   margin: 0;
 }
 .about-two__title {
@@ -2337,7 +2337,7 @@ a:focus {
 }
 .blog-one__classic-content .blog-one__qoute-post {
   padding: 40px 60px;
-  background-color: #e23e4e;
+  background-color: #b7c391;
 }
 @media (max-width: 480px) {
   .blog-one__classic-content .blog-one__qoute-post {
@@ -6174,4 +6174,24 @@ a:focus {
   font-size: 10px;
   right: -6px;
   color: #231f20;
+}
+.practice-area-container p {
+  text-align: justify;
+  font-size: .93rem;
+  line-height: 1.5rem;
+  color: #101010;
+}
+
+.election-list li span {
+  height: 20px;
+  width: 20px;
+  display: inline-flex;
+  font-size: 12px;
+  align-items: center;
+  align-items: c;
+  justify-content: center;
+  background-color: #b7c391;
+  border-radius: 50%;
+  font-weight: 800;
+  margin-right: 8px;
 }
