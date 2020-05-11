@@ -6175,9 +6175,10 @@ a:focus {
   color: #231f20;
   background-image: url(../images/tm.png);
   font-size: 0px;
-  height: 16px;
-  width: 16px;
+  height: 19px;
+  width: 19px;
   background-size: contain;
+  opacity: .8;
 }
 .practice-area-container p {
   text-align: justify;
